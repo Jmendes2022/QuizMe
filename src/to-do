@@ -1,0 +1,29 @@
+Make log in page -JWT Token validation
+
+- ability to make new subjects and delete subjects
+  - Confirmation prior to deletion of a subject
+- Ability to add and delete flashcards per subject
+  - Confirmation prior to deletion of a flashcard
+- Multiple Choice or True / False
+
+- Present flash cards
+
+  - Select which subject the user wants to study
+  - select how many flash cards the user wants to be asked
+    - Example => There are X questions available for this subject
+
+- Quiz page to allow users to be quizzes on different topics
+
+  - Select particular topic
+  - Select all topics if wanted
+  - Multiple choice or True / False
+  - Average of how many questions were accurately answered
+    - Grid display of which questions should be answered
+      - Red border around the questions that should be restudyied?
+
+- Statistics page
+  - How many overall flashcards were shown
+  - How many flashcards were answered correctly
+  - How many flashcards were answered incorrectly
+  - The flashcard that is most commonly answered incorrectly
+  - Reset button that resets all statistics for the user
