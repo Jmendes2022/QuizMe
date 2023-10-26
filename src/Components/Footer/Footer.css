@@ -1,0 +1,23 @@
+.Footer {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1.5rem;
+  margin-top: 2rem;
+  padding: 0rem 1rem;
+}
+
+.Footer span {
+  display: flex;
+  margin-inline: auto;
+}
+
+@media (min-width: 375px) {
+  .Footer {
+    width: 100%;
+  }
+
+  .Footer span {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+  }
+}

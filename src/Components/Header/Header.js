@@ -1,6 +1,7 @@
 import React from "react";
-
 import GraduationCap from "../Images/GraduationCap.png";
+
+import '../Header/Header.css';
 
 const Header = () => {
   return (

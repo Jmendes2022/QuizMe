@@ -1,0 +1,33 @@
+.btn {
+  color: var(--color-darkest);
+  font-size: medium;
+  border: 2px solid var(--color-dark);
+  background-color: var(--color-dark);
+  padding: 0.75rem;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: all 0.3s;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.795);
+}
+
+.btn-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.btn-logout {
+  display: flex;
+  margin-inline: auto;
+  margin-top: 2rem;
+  width: fit-content;
+  padding: 0.75rem;
+  font-size: medium;
+}

@@ -1,0 +1,31 @@
+.flashcard-container {
+    height: 100vh;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.flashcard-header {
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+    margin-top: 5rem;
+    font-size: xx-large;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 80%;
+    padding: 1rem 0;
+}
+
+
+.btn-create-cards {
+  font-size: medium;
+  display: flex;
+  width: 10rem;
+  justify-content: center;
+}

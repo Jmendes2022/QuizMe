@@ -1,0 +1,17 @@
+.home-container {
+  height: 100vh;
+  padding: 0 1rem;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  justify-items: stretch;
+  align-content: stretch;
+}
+
+.card {
+  height: 15rem;
+}
+

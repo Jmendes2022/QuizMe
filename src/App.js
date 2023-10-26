@@ -1,7 +1,6 @@
-import Navbar from "./Components/Navbar";
-import Header from "./Components/Header";
+import Header from "./Components/Header/Header";
 import Main from "./Components/Main";
-import Footer from "./Components/Footer";
+import Footer from "./Components/Footer/Footer";
 import {useReducer} from "react";
 
 const initialState = {
