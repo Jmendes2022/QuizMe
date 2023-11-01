@@ -1,7 +1,7 @@
 import React from "react";
 import {Route, Routes} from "react-router-dom";
 import LoginPage from "./Pages/LoginPage/LoginPage";
-import HomePage from "./HomePage/HomePage";
+import HomePage from "./Pages/HomePage/HomePage";
 import FlashCards from "./Pages/FlashCards/FlashCards";
 
 const Main = ({dispatch}) => {

@@ -1,16 +1,17 @@
-import React from 'react'
-import Button from '../../Button/Button'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import FlashCard from '../../Flashcard/Flashcard';
+import Button from '../../Button/Button';
 
 import '../../Flashcard/Flashcard.css';
 import "../FlashCards/FlashCards.css";
 
-const title = 'C#';
-const cardContent = 'What does OOP stand for?';
-const answer = 'Object Oriented Programming';
+let title = 'C#';
+let cardContent = 'What does OOP stand for?';
+let answer = 'Object Oriented Programming';
 
 const FlashCards = () => {
+
   return (
     <section className="flashcard-container">
       <h1 className="flashcard-header">Study</h1>
@@ -21,10 +22,7 @@ const FlashCards = () => {
         <Button className="btn btn-create-cards">Create Cards</Button>
       </div>
       <div className="card-container">
-        <FlashCard title={title} answer={answer} className="">
-          <Button className='btn btn-flashcard-edit'>Edit</Button>
-          {cardContent}
-        </FlashCard>
+        <FlashCard title={title} answer={answer} cardContent={cardContent} className=""/>
       </div>
     </section>
   );
